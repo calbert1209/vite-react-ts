@@ -10,7 +10,7 @@ jobs:
       - name: Install via Yarn 🧶
         uses: borales/actions-yarn@v2.3.0
         with:
-          cmd: build
+          cmd: install
       
       - name: Build via Yarn 📦
         uses: borales/actions-yarn@v2.3.0
